@@ -19,6 +19,17 @@
 		627E6BE61888ADAD000EC53E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627E6BCE1888ADAC000EC53E /* UIKit.framework */; };
 		627E6BEE1888ADAD000EC53E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 627E6BEC1888ADAD000EC53E /* InfoPlist.strings */; };
 		627E6BF01888ADAD000EC53E /* BarDiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 627E6BEF1888ADAD000EC53E /* BarDiceTests.m */; };
+		627E6BFB1888ADDD000EC53E /* JMMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627E6BFA1888ADDD000EC53E /* JMMViewController.m */; };
+		627E6BFD1888AE92000EC53E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627E6BFC1888AE92000EC53E /* CoreLocation.framework */; };
+		627E6C0F1888AECE000EC53E /* JMMLocationEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 627E6C001888AECE000EC53E /* JMMLocationEngine.m */; };
+		627E6C101888AECE000EC53E /* JMMFoursquareAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 627E6C041888AECE000EC53E /* JMMFoursquareAPIHelper.m */; };
+		627E6C111888AECE000EC53E /* O16GooglePlacesAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 627E6C061888AECE000EC53E /* O16GooglePlacesAPIHelper.m */; };
+		627E6C121888AECE000EC53E /* exampleFSResp.strings in Resources */ = {isa = PBXBuildFile; fileRef = 627E6C081888AECE000EC53E /* exampleFSResp.strings */; };
+		627E6C131888AECE000EC53E /* FSConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 627E6C0A1888AECE000EC53E /* FSConverter.m */; };
+		627E6C141888AECE000EC53E /* FSVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 627E6C0C1888AECE000EC53E /* FSVenue.m */; };
+		627E6C151888AECE000EC53E /* JMMGooglePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 627E6C0E1888AECE000EC53E /* JMMGooglePlace.m */; };
+		62A54C8B1888BBBC00FED083 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A54C8A1888BBBC00FED083 /* MapKit.framework */; };
+		62A54C8E1888BC7C00FED083 /* UIView+SizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A54C8D1888BC7C00FED083 /* UIView+SizeHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,26 @@
 		627E6BEB1888ADAD000EC53E /* BarDiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarDiceTests-Info.plist"; sourceTree = "<group>"; };
 		627E6BED1888ADAD000EC53E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		627E6BEF1888ADAD000EC53E /* BarDiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarDiceTests.m; sourceTree = "<group>"; };
+		627E6BF91888ADDD000EC53E /* JMMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMViewController.h; sourceTree = "<group>"; };
+		627E6BFA1888ADDD000EC53E /* JMMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMViewController.m; sourceTree = "<group>"; };
+		627E6BFC1888AE92000EC53E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		627E6BFF1888AECE000EC53E /* JMMLocationEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMLocationEngine.h; sourceTree = "<group>"; };
+		627E6C001888AECE000EC53E /* JMMLocationEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMLocationEngine.m; sourceTree = "<group>"; };
+		627E6C021888AECE000EC53E /* GooglePlacesTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlacesTypes.h; sourceTree = "<group>"; };
+		627E6C031888AECE000EC53E /* JMMFoursquareAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMFoursquareAPIHelper.h; sourceTree = "<group>"; };
+		627E6C041888AECE000EC53E /* JMMFoursquareAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMFoursquareAPIHelper.m; sourceTree = "<group>"; };
+		627E6C051888AECE000EC53E /* O16GooglePlacesAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = O16GooglePlacesAPIHelper.h; sourceTree = "<group>"; };
+		627E6C061888AECE000EC53E /* O16GooglePlacesAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = O16GooglePlacesAPIHelper.m; sourceTree = "<group>"; };
+		627E6C081888AECE000EC53E /* exampleFSResp.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = exampleFSResp.strings; sourceTree = "<group>"; };
+		627E6C091888AECE000EC53E /* FSConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSConverter.h; sourceTree = "<group>"; };
+		627E6C0A1888AECE000EC53E /* FSConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSConverter.m; sourceTree = "<group>"; };
+		627E6C0B1888AECE000EC53E /* FSVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSVenue.h; sourceTree = "<group>"; };
+		627E6C0C1888AECE000EC53E /* FSVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVenue.m; sourceTree = "<group>"; };
+		627E6C0D1888AECE000EC53E /* JMMGooglePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMMGooglePlace.h; sourceTree = "<group>"; };
+		627E6C0E1888AECE000EC53E /* JMMGooglePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMMGooglePlace.m; sourceTree = "<group>"; };
+		62A54C8A1888BBBC00FED083 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		62A54C8C1888BC7C00FED083 /* UIView+SizeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SizeHelper.h"; sourceTree = "<group>"; };
+		62A54C8D1888BC7C00FED083 /* UIView+SizeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SizeHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A54C8B1888BBBC00FED083 /* MapKit.framework in Frameworks */,
+				627E6BFD1888AE92000EC53E /* CoreLocation.framework in Frameworks */,
 				627E6BCD1888ADAC000EC53E /* CoreGraphics.framework in Frameworks */,
 				627E6BCF1888ADAC000EC53E /* UIKit.framework in Frameworks */,
 				627E6BCB1888ADAC000EC53E /* Foundation.framework in Frameworks */,
@@ -96,6 +129,8 @@
 		627E6BC91888ADAC000EC53E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62A54C8A1888BBBC00FED083 /* MapKit.framework */,
+				627E6BFC1888AE92000EC53E /* CoreLocation.framework */,
 				627E6BCA1888ADAC000EC53E /* Foundation.framework */,
 				627E6BCC1888ADAC000EC53E /* CoreGraphics.framework */,
 				627E6BCE1888ADAC000EC53E /* UIKit.framework */,
@@ -107,10 +142,17 @@
 		627E6BD01888ADAC000EC53E /* BarDice */ = {
 			isa = PBXGroup;
 			children = (
+				62A54C8C1888BC7C00FED083 /* UIView+SizeHelper.h */,
+				62A54C8D1888BC7C00FED083 /* UIView+SizeHelper.m */,
+				627E6BFE1888AECE000EC53E /* LocationEngine */,
+				627E6C011888AECE000EC53E /* LocationHelpers */,
+				627E6C071888AECE000EC53E /* LocationModels */,
 				627E6BD91888ADAC000EC53E /* JMMAppDelegate.h */,
 				627E6BDA1888ADAC000EC53E /* JMMAppDelegate.m */,
 				627E6BDC1888ADAC000EC53E /* Images.xcassets */,
 				627E6BD11888ADAC000EC53E /* Supporting Files */,
+				627E6BF91888ADDD000EC53E /* JMMViewController.h */,
+				627E6BFA1888ADDD000EC53E /* JMMViewController.m */,
 			);
 			path = BarDice;
 			sourceTree = "<group>";
@@ -142,6 +184,41 @@
 				627E6BEC1888ADAD000EC53E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		627E6BFE1888AECE000EC53E /* LocationEngine */ = {
+			isa = PBXGroup;
+			children = (
+				627E6BFF1888AECE000EC53E /* JMMLocationEngine.h */,
+				627E6C001888AECE000EC53E /* JMMLocationEngine.m */,
+			);
+			path = LocationEngine;
+			sourceTree = "<group>";
+		};
+		627E6C011888AECE000EC53E /* LocationHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				627E6C021888AECE000EC53E /* GooglePlacesTypes.h */,
+				627E6C031888AECE000EC53E /* JMMFoursquareAPIHelper.h */,
+				627E6C041888AECE000EC53E /* JMMFoursquareAPIHelper.m */,
+				627E6C051888AECE000EC53E /* O16GooglePlacesAPIHelper.h */,
+				627E6C061888AECE000EC53E /* O16GooglePlacesAPIHelper.m */,
+			);
+			path = LocationHelpers;
+			sourceTree = "<group>";
+		};
+		627E6C071888AECE000EC53E /* LocationModels */ = {
+			isa = PBXGroup;
+			children = (
+				627E6C081888AECE000EC53E /* exampleFSResp.strings */,
+				627E6C091888AECE000EC53E /* FSConverter.h */,
+				627E6C0A1888AECE000EC53E /* FSConverter.m */,
+				627E6C0B1888AECE000EC53E /* FSVenue.h */,
+				627E6C0C1888AECE000EC53E /* FSVenue.m */,
+				627E6C0D1888AECE000EC53E /* JMMGooglePlace.h */,
+				627E6C0E1888AECE000EC53E /* JMMGooglePlace.m */,
+			);
+			path = LocationModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				627E6BD51888ADAC000EC53E /* InfoPlist.strings in Resources */,
+				627E6C121888AECE000EC53E /* exampleFSResp.strings in Resources */,
 				627E6BDD1888ADAC000EC53E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +318,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627E6C141888AECE000EC53E /* FSVenue.m in Sources */,
+				627E6C131888AECE000EC53E /* FSConverter.m in Sources */,
+				627E6C111888AECE000EC53E /* O16GooglePlacesAPIHelper.m in Sources */,
 				627E6BD71888ADAC000EC53E /* main.m in Sources */,
+				627E6C151888AECE000EC53E /* JMMGooglePlace.m in Sources */,
+				627E6C101888AECE000EC53E /* JMMFoursquareAPIHelper.m in Sources */,
+				627E6C0F1888AECE000EC53E /* JMMLocationEngine.m in Sources */,
 				627E6BDB1888ADAC000EC53E /* JMMAppDelegate.m in Sources */,
+				627E6BFB1888ADDD000EC53E /* JMMViewController.m in Sources */,
+				62A54C8E1888BC7C00FED083 /* UIView+SizeHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +528,7 @@
 				627E6BF51888ADAD000EC53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		627E6BF61888ADAD000EC53E /* Build configuration list for PBXNativeTarget "BarDiceTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +537,7 @@
 				627E6BF81888ADAD000EC53E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

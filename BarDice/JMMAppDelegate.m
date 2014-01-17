@@ -7,13 +7,18 @@
 //
 
 #import "JMMAppDelegate.h"
+#import "JMMViewController.h"
 
 @implementation JMMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    JMMViewController *viewController = [[JMMViewController alloc] init];
+    self.window.rootViewController = viewController;
+    [self.window addSubview:viewController.view];
+ 
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
